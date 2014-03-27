@@ -24,6 +24,11 @@
 		8B4EF79818E1C612003EF0F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4EF77318E1C612003EF0F2 /* UIKit.framework */; };
 		8B4EF7A018E1C612003EF0F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B4EF79E18E1C612003EF0F2 /* InfoPlist.strings */; };
 		8B4EF7A218E1C612003EF0F2 /* SpriteKitPhysicsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4EF7A118E1C612003EF0F2 /* SpriteKitPhysicsTestTests.m */; };
+		8B4EF7B118E1CBB7003EF0F2 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B4EF7AC18E1CBB7003EF0F2 /* circle.png */; };
+		8B4EF7B218E1CBB7003EF0F2 /* octagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B4EF7AD18E1CBB7003EF0F2 /* octagon.png */; };
+		8B4EF7B318E1CBB7003EF0F2 /* sand.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B4EF7AE18E1CBB7003EF0F2 /* sand.png */; };
+		8B4EF7B418E1CBB7003EF0F2 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B4EF7AF18E1CBB7003EF0F2 /* square.png */; };
+		8B4EF7B518E1CBB7003EF0F2 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B4EF7B018E1CBB7003EF0F2 /* triangle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +65,11 @@
 		8B4EF79D18E1C612003EF0F2 /* SpriteKitPhysicsTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteKitPhysicsTestTests-Info.plist"; sourceTree = "<group>"; };
 		8B4EF79F18E1C612003EF0F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B4EF7A118E1C612003EF0F2 /* SpriteKitPhysicsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteKitPhysicsTestTests.m; sourceTree = "<group>"; };
+		8B4EF7AC18E1CBB7003EF0F2 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		8B4EF7AD18E1CBB7003EF0F2 /* octagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = octagon.png; sourceTree = "<group>"; };
+		8B4EF7AE18E1CBB7003EF0F2 /* sand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sand.png; sourceTree = "<group>"; };
+		8B4EF7AF18E1CBB7003EF0F2 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		8B4EF7B018E1CBB7003EF0F2 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +139,7 @@
 				8B4EF78918E1C612003EF0F2 /* MyScene.h */,
 				8B4EF78A18E1C612003EF0F2 /* MyScene.m */,
 				8B4EF78C18E1C612003EF0F2 /* Spaceship.png */,
+				8B4EF7AB18E1CBB7003EF0F2 /* Shapes */,
 				8B4EF78E18E1C612003EF0F2 /* Images.xcassets */,
 				8B4EF77818E1C612003EF0F2 /* Supporting Files */,
 			);
@@ -162,6 +173,18 @@
 				8B4EF79E18E1C612003EF0F2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B4EF7AB18E1CBB7003EF0F2 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				8B4EF7AC18E1CBB7003EF0F2 /* circle.png */,
+				8B4EF7AD18E1CBB7003EF0F2 /* octagon.png */,
+				8B4EF7AE18E1CBB7003EF0F2 /* sand.png */,
+				8B4EF7AF18E1CBB7003EF0F2 /* square.png */,
+				8B4EF7B018E1CBB7003EF0F2 /* triangle.png */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,7 +265,12 @@
 			files = (
 				8B4EF77C18E1C612003EF0F2 /* InfoPlist.strings in Resources */,
 				8B4EF78F18E1C612003EF0F2 /* Images.xcassets in Resources */,
+				8B4EF7B318E1CBB7003EF0F2 /* sand.png in Resources */,
+				8B4EF7B118E1CBB7003EF0F2 /* circle.png in Resources */,
+				8B4EF7B518E1CBB7003EF0F2 /* triangle.png in Resources */,
+				8B4EF7B218E1CBB7003EF0F2 /* octagon.png in Resources */,
 				8B4EF78D18E1C612003EF0F2 /* Spaceship.png in Resources */,
+				8B4EF7B418E1CBB7003EF0F2 /* square.png in Resources */,
 				8B4EF78518E1C612003EF0F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
